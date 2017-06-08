@@ -3,13 +3,28 @@ h1{
 	font-family: italic;
 	font-size: 50px;
 	color: white;
+
 }
 
 h2{
 	text-align: center;
 	font-family: cursive;
+	font-size: 37.5px;
+	color: orange;
+}
+
+h3{
+	text-align: center;
+	font-family: italic;
 	font-size: 25px;
 	color: grey;
+}
+
+h4{
+	text-align: center;
+	font-family: cursive;
+	font-size: 30px;
+	color: orange;
 }
 
 .imghead{
@@ -17,9 +32,15 @@ h2{
   	height: auto;
 }
 
-div{
-	margin : 100px;
-
+.titles{
+	margin : 50px;
+}
+.titles2{
+	margin-left : 175px;
+	margin-right : 175px;
+	margin-top : 30px;
+	margin-bottom : 30px;
+	position: center;
 }
 
 ul {
@@ -31,6 +52,7 @@ ul {
 
 li {
     float: left;
+    padding.left: 10px;
 }
 
 li a {
@@ -75,7 +97,7 @@ nav{
 footer{
 	background-color: #E1D5D2;
 	text-align: center;
-  	margin : 10px;
+  	padding: irem;
 }
 
 .imagenes{
@@ -89,4 +111,30 @@ footer{
 
 #text{
 	margin: 20px;
+}
+
+input{
+	float: left;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+
+.size{
+	width : 500px ; 
+	height: 300px;
+}
+
+button{
+	float: center;
+	position: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 15px;
+	width: 40%;
+	height: 40px;
+	background-color: silver;
+	color: black;
+	border-color: white;
 }
